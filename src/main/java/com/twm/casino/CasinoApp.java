@@ -28,7 +28,7 @@ public class CasinoApp  {
         //10 players each play 3 games
         for (int i =0;i<10;i++) {
             IPlayer player = new Player(15,new RPSStrategy());
-            casino.playGame(player,3);//each player plays 3 game
+            casino.enter(player,3);//each player plays 3 game
 
         }
         for(int i=0;i<10;i++) {
