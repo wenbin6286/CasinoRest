@@ -1,1 +1,1 @@
-# Casino Rest App
+# Export Casino through Restful API
